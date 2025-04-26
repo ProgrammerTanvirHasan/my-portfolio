@@ -58,7 +58,7 @@ const EmailSection = () => {
           <Link href="https://github.com/ProgrammerTanvirHasan">
             <FaGithub className="text-5xl bg-white rounded-full"></FaGithub>
           </Link>
-          <Link href="https://www.facebook.com/">
+          <Link href="https://www.facebook.com/uzzal.husen.90">
             <CiFacebook className="text-5xl bg-white rounded-full"></CiFacebook>
           </Link>
         </div>
