@@ -28,15 +28,6 @@ const TAB_DATA = [
       </ul>
     ),
   },
-  {
-    title: "Certifications",
-    id: "certifications",
-    content: (
-      <ul className="list-disc pl-2">
-        <li>Programming hero</li>
-      </ul>
-    ),
-  },
 ];
 
 const AboutSection = () => {
@@ -77,13 +68,6 @@ const AboutSection = () => {
             >
               {" "}
               Education{" "}
-            </TabButton>
-            <TabButton
-              selectTab={() => handleTabChange("certifications")}
-              active={tab === "certifications"}
-            >
-              {" "}
-              Certifications{" "}
             </TabButton>
           </div>
           <div className="mt-8">

@@ -33,12 +33,14 @@ const ProjectCard = ({
           </Link>
         </div>
       </div>
-      <div className="text-white rounded-b-xl mt-3 bg-[#181818]py-6 px-4">
+      <div className="text-white rounded-b-xl mt-3 bg-[#181818]py-6 ">
         <h5 className="text-xl font-semibold mb-2">{title}</h5>
         <p className="text-sm">{email}</p>
         <p className="text-sm">{pass}</p>
         <a href={link}>
-          <p className="text-[#ADB7BE]">{description}</p>
+          <p className="text-primary-500/60 hover:text-primary-900 ">
+            {description}
+          </p>
         </a>
       </div>
     </div>

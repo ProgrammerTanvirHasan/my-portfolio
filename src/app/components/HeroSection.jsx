@@ -21,14 +21,7 @@ const HeroSection = () => {
             </span>
             <br></br>
             <TypeAnimation
-              sequence={[
-                "Tanvir",
-                1000,
-                "Web Developer",
-                1000,
-                "UI/UX Designer",
-                1000,
-              ]}
+              sequence={["Tanvir", 1000, "Web Developer", 1000]}
               wrapper="span"
               speed={50}
               repeat={Infinity}
@@ -63,7 +56,7 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-4 place-self-center mt-4 lg:mt-0"
         >
-          <div className="rounded-full  w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
+          <div className="rounded-full  w-[250px] h-[350px] lg:w-[400px] lg:h-[400px] relative">
             <Image
               src="/images/profile.png"
               alt="hero image"

@@ -6,11 +6,11 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "Next.js // Social Website",
+    title: "Vital Drops(Using Next.js)",
     description: "Click me",
-    email: "Admin: tanvirHASANtopu981@gmail.com",
-    pass: "pass: tanvirHASANtopu981",
-    link: "https://vital-drops-a56h.vercel.app",
+    email: "Admin: hasanmdtanvir001@gmail.com",
+    pass: "Pass:hasanmdtanvir001",
+    link: "https://vital-drops.vercel.app",
     image: "/images/projects/1.png",
 
     gitUrl: "/",
@@ -18,10 +18,10 @@ const projectsData = [
   },
   {
     id: 2,
-    title: "React // School",
+    title: "Study Sphere(Using React)",
     description: "Click me",
     email: "Admin: hasanmdtanvir001@gmail.com",
-    pass: "pass: hasanmdtanvir001",
+    pass: "Pass: hasanmdtanvir001",
     link: "https://studysphere-cf030.web.app",
     image: "/images/projects/2.png",
 
@@ -30,48 +30,12 @@ const projectsData = [
   },
   {
     id: 3,
-    title: "E-commerce Application",
+    title: "Shop Finity(Using Next.js)",
     description: "Click me",
-    email: "",
-    pass: "",
-    link: "https://looking-for-talented-devoloper.web.app",
+    email: "Admin: hasanmdtanvir001@gmail.com",
+    pass: "Pass:hasanmdtanvir001",
+    link: "https://shopfinity-sigma.vercel.app",
     image: "/images/projects/3.png",
-
-    gitUrl: "/",
-    previewUrl: "/",
-  },
-  {
-    id: 4,
-    title: "E-commerce Application",
-    description: "Click me",
-    email: "",
-    pass: "",
-    link: "https://authentic-drawing-art.web.app",
-    image: "/images/projects/4.png",
-
-    gitUrl: "/",
-    previewUrl: "/",
-  },
-  {
-    id: 5,
-    title: "Plane Javascript",
-    description: "Click me",
-    email: "",
-    pass: "",
-    link: "https://65e6fd8b2cb5b7884363a1da--charming-melomakarona-df3382.netlify.app",
-    image: "/images/projects/5.png",
-
-    gitUrl: "/",
-    previewUrl: "/",
-  },
-  {
-    id: 6,
-    title: "E - Ticket",
-    description: "Click me",
-    email: "",
-    pass: "",
-    link: "https://cosmic-starlight-f3c196.netlify.app",
-    image: "/images/projects/6.png",
 
     gitUrl: "/",
     previewUrl: "/",
@@ -93,7 +57,7 @@ const ProjectsSection = () => {
         My Some Projects
       </h2>
 
-      <ul ref={ref} className="grid md:grid-cols-2 gap-8 md:gap-12">
+      <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
         {projectsData.map((project, index) => (
           <motion.li
             key={project.id}
